@@ -1,3 +1,3 @@
 # Proyecto-Frontend
 
-LINK LOGO: https://es.freelogodesign.org/manager
+LINK LOGO (cuenta carlos): https://es.freelogodesign.org/manager
