@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar sesión - Chat4Play</title>
+    <title>Registrarse - Chat4Play</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -12,14 +12,16 @@
     <div class="container content">
         <div class="row">
             <div class="col">
-                <form action="./index.html" class="form-login">
-                    <h1>INICIAR SESIÓN</h1>
+                <form action="./index.html" class="form-register">
+                    <h1>REGISTRARSE</h1>
                     <div class="titulos_login">Nombre de usuario:</div>
                     <input type="text" value="" name="username"><br>
                     <div class="titulos_login">Contraseña:</div>
                     <input type="password" value="" name="password"><br>
-                    <input class="iniciar_button" type="submit" value="INICIAR">
-                    <p class="tienes_cuenta"><a href="./register.html">¿No tienes cuenta? ¡Regístrate!</a></p>
+                    <div class="titulos_login">Confirmar contraseña:</div>
+                    <input type="password" value="" name="confirm_password"><br>
+                    <input class="iniciar_button" type="submit" value="REGISTRAR">
+                    <p class="tienes_cuenta"><a href="./login.html">¿Ya tienes cuenta? ¡Inicia sesión!</a></p>
                 </form>
             </div>
         </div>
