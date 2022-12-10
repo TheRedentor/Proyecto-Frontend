@@ -1,8 +1,0 @@
-<p id="texto_container_main"><button type="btn" id="btn_unirse" style="font-size: 25px;">Salir</button></p>
-
-                <p id ="texto_container_main" style="font-size:35px;"><strong>TITULO EJEMPLO</strong><br></p>
-
-                <p id="texto_container_main">
-                    <i class="bi bi-arrow-right"></i>
-                    <textarea class="form-control mb-3" id="textAreaExample1" rows="9"></textarea>
-                </p>
