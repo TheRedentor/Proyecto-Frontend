@@ -19,12 +19,12 @@ body {
     padding-left: 30px;
 }
 
-button {
+.navbar_iniciar_sesion {
     background-color: #741BE5;
     color: white;
     position: absolute;
-    right: 70px;
-    top: 30px;
+    right: 30px;
+    top: 17px;
     width: 150px;
     height: 40px;
     border: none;
@@ -33,88 +33,87 @@ button {
     font-weight: bold;
 }
 
-.content {
-    background-color: white;
-}
-
-.row {
-    text-align: center;
-}
-
-.col {
-    display: inline-block;
+.content_perfil {
+    margin: 130px;
 }
 
 .box1 {
-    margin: 175px 0px 75px 0px;
+    text-align: center;
+    margin: 175px 20px 75px 20px;
     width: 400px;
-    height: 425px;
+    height: 525px;
     border-radius: 40px;
     background-color: #D9D9D9;
-    text-align: left;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     padding: 50px 30px 50px 30px;
     text-shadow: gray 1px 4px;
     color: rgb(44, 44, 44);
     box-shadow: rgb(168, 168, 168) 4px 4px;
+    display: inline-block;
+    position: relative;
+    top: 150px;
 }
 
 .box2 {
-    margin: 0px 5% 0px 5%;
+    text-align: center;
+    margin: 0px 5% 75px 5%;
     padding-top: 200px;
     width: 400px;
     height: 425px;
     border-radius: 40px;
     background-color: #741BE5;
-    padding: 150px 30px 0px 30px;
+    padding: 100px 30px 0px 30px;
     box-shadow: rgb(168, 168, 168) 4px 4px;
-    font-size: 80px;
+    font-size: 50px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: rgb(77, 77, 77) 1px 4px;
     color: rgb(255, 255, 255);
+    display: inline-block;
+    position: relative;
+    top: 150px;
 }
 
 .box3 {
-    margin: 75px 0px 75px 0px;
+    text-align: center;
+    margin: 75px 20px 75px 20px;
     width: 320px;
     height: 385px;
     border-radius: 40px;
     background-color: #D9D9D9;
-    text-align: left;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 110px 30px 30px 110px;
+    padding: 40px 30px 30px 30px;
     text-shadow: gray 1px 4px;
     color: rgb(44, 44, 44);
     box-shadow: rgb(168, 168, 168) 4px 4px;
+    display: inline-block;
+    position: relative;
+    top: 150px;
 }
 
 .form-login {
     margin: auto;
     margin-top: 230px;
-    top: 350px;
-    width: 350px;
-    height: 425px;
+    max-width: 500px;
+    height: 475px;
     border-radius: 40px;
     background-color: #D9D9D9;
-    padding: 0px 0px 50px 00px;
     box-shadow: rgb(168, 168, 168) 4px 4px;
     text-align: center;
 }
 
 .form-register {
     margin: auto;
-    margin-top: 230px;
-    top: 350px;
-    width: 350px;
-    height: 535px;
+    margin-top: 95px;
+    margin-bottom: 15px;
+    max-width: 500px;
+    height: 825px;
     border-radius: 40px;
     background-color: #D9D9D9;
-    padding: 0px 0px 50px 0px;
     box-shadow: rgb(168, 168, 168) 4px 4px;
     text-align: center;
 }
@@ -124,18 +123,18 @@ button {
     background-color: #600281;
     text-align: center;
     border-radius: 40px 40px 0px 0px;
-    width: 350px;
-    height: 40px;
+    height: 70px;
     padding: 20px 0px 5px 0px;
     font-size: 25px;
 }
 
-input {
+.input_login_register {
     border: none;
     border-radius: 5px;
     width: 70%;
     height: 30px;
     font-size: 16px;
+    box-shadow: 2px 2px rgb(168, 168, 168);
 }
 
 .iniciar_button {
@@ -155,7 +154,7 @@ input {
 .titulos_login {
     font-size: 18px;
     font-weight: bold;
-    margin: 40px 0px 20px 0px;
+    margin: 30px 0px 10px 0px;
     text-align: center;
 }
 
@@ -168,9 +167,88 @@ input {
 }
 
 .titulo_informacion_personal {
+    padding-top: 50px;
+    font-weight: 800;
+}
 
+.cambiar_imagen {
+    margin-bottom: 0px;
+    font-size: 12px;
+    text-decoration: underline;
+    color: #600281;
+    font-weight: 800;
+    background: none;
+    border: none;
 }
 
 .datos_informacion_personal {
+    font-weight: bold;
+}
 
+.input_informacion_personal {
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px rgb(168, 168, 168);
+    margin-bottom: 15px;
+}
+
+.box_informacion_personal {
+    margin-top: 110px;
+    margin: 0px 0px 0px 0px;
+    max-width: 700px;
+    max-height: 850px;
+    border-radius: 40px;
+    background-color: #D9D9D9;
+    padding: 0px 0px 50px 00px;
+    box-shadow: rgb(168, 168, 168) 4px 4px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_cambiar_perfil {
+    border-radius: 40px;
+    padding: 0px 0px 30px 00px;
+    text-align: center;
+}
+
+.imagen_perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    box-shadow: 2px 2px rgb(168, 168, 168);
+    margin-top: 35px;
+}
+
+.volver_button {
+    background-color: #741BE5;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    right: 3%;
+}
+
+.guardar_button {
+    background-color: #741BE5;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    left: 3%;
+}
+
+.column_imagen_perfil {
+    padding-top: 25px;
 }
