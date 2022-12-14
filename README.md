@@ -48,6 +48,8 @@ DELETE https://proyecto-bbdd-production-36ba.up.railway.app/api/mensajes/:id
 
 GET https://proyecto-bbdd-production-36ba.up.railway.app/api/party
 
+GET https://proyecto-bbdd-production-36ba.up.railway.app/api/party/nombre/{nombre}
+
 GET https://proyecto-bbdd-production-36ba.up.railway.app/api/party/:id
 
 POST https://proyecto-bbdd-production-36ba.up.railway.app/api/party
